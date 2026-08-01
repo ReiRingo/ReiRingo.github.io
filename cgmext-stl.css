@@ -30,8 +30,11 @@ h1,
 h2,
 h3 {
   color: var(--accent);
-  font-size: 1.6rem;
   font-weight: 600;
+}
+
+h1 {
+  font-size: 2rem;
 }
 
 h2 {
@@ -73,6 +76,10 @@ a:hover {
 
 ::selection {
   background-color: var(--highlight);
+}
+
+li {
+  margin-top: 0.96rem;
 }
 
 code:not(pre code) {
