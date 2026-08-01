@@ -39,7 +39,7 @@ h2 {
 }
 
 h3 {
-  font-size: 1.1rem;
+  font-size: 0.95rem;
   margin-top: 24px;
   margin-bottom: 8px;
   letter-spacing: 0.05em;
@@ -219,4 +219,8 @@ footer p {
 .toc a:hover {
   color: var(--accent);
   text-decoration: underline;
+}
+
+.table {
+  color: var(--text);
 }
